@@ -723,6 +723,9 @@ screens - 3d style gallery
 
 -----------------------------------------------------------------------------------*/
 
+#screens {
+	background: #f2f5f9;
+}
 .section7{
 	padding:90px 0;
 	background:url(../images/bg4.jpg) no-repeat top center;
