@@ -41,8 +41,39 @@
  # swiper (carousel slider)
 
 -----------------------------------------------------------------------------------*/
+#logo-contact-mini {
+	max-height: 7em !important;
+	max-width: 7em !important;
+}
+#logo-contact-maxi {
+	max-height: 10em !important;
+	max-width: 10em !important;
+}
+
+#logo-contact-grid {
+	min-height: 13em;
+	padding: 0 2em;
+}
+#name-logo-contact {
+	text-align: center;
+}
+#logo-contact-img {
+	min-height: 8em;
+	-webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+	text-align: center;
+}
 
 
+#logo-contact-img:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
 @import url('../css/icofont.css');
 *{
 	padding:0;
