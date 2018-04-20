@@ -392,9 +392,9 @@ features
 .f-box:hover a{
 	color:#9750c0;
 }
-.f-box:hover p{
+/*.f-box:hover p{
 	color:#687996;
-}
+}*/
 .f-box p{
 	padding-top:20px;
 	transition: all 0.1s ease;
@@ -540,7 +540,7 @@ box-shadow: 0px 0px 51px 7px rgba(144,155,165,0.24);
 }
 
 .content-area-second{
-	padding:120px 0;
+	padding:5em 0;
 }
 
 
@@ -676,7 +676,6 @@ Dashboard
 .acc{
 	font-weight:500;
 	color:#fff!important;
-	text-transform:uppercase;
 	text-align:center;
 	background:#2bd6ee;
 	padding:12px 40px;
@@ -1380,10 +1379,14 @@ Footer Social
 box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 }
 
+#logo-footer {
+	margin-left:10em;
+}
 .footer-box-content{
 	float:left;
 	width:100%;
 	padding:20px 40px 40px 40px;
+	min-height: 21em;
 }
 
 .fool-box h4{
@@ -1404,6 +1407,13 @@ box-shadow: 0px 20px 51px -1px rgba(144,155,165,0.29);
 	font-weight:400;
 	margin:0;
 	padding-top:10px;
+	min-height: 10em;
+}
+
+.copyright.text-muted.small {
+	color: #fff;
+	line-height: 1.3em;
+	margin-bottom: 1em;
 }
 
 .fool-box i{
@@ -1469,7 +1479,7 @@ box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
 .last-footer{
 	float:left;
 	width:100%;
-	padding:55px 0 0 0;
+	padding:1em 0 0 0;
 	border-top:#e2e7ed solid 2px;
 	background: #4A90E2;
 	color: #fff;
