@@ -2392,8 +2392,23 @@ BLOG CSS
 	
 }
 
+.contacto {
+	text-align: center;
+}
 
+.contacto h3{
+	color: #fff;
 
+}
+
+.contacto a {
+	color: #fff;
+}
+
+.contacto a:hover {
+	color: #2BD6EE;
+
+}
 
 
 
